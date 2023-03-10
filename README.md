@@ -9,17 +9,17 @@ The goal of this project is to accurately predict the number of taxi bookings fo
 Dataset contains hourly renting data in the span of two years. Data is randomly divided into train and test set. The total count of cabs booked in each hour covered by the test set, using the information available prior to the booking period is predicted. The train_label dataset is appended to train.csv as ‘Total_booking’ column.
 
 <h2>Descriptions of the columns present in the dataset</h2>
-- <b>datetime-hourly date +timestamp<br />
-- <b>season-spring, summer, autumn, winter<br />
-- <b>holiday-whether the day is considered a holiday<br />
-- <b>workingday-whether the day is neither a weekend nor holiday<br />
-- <b>season-spring, summer, autumn, winter<br />
-- <b>weather-Clear , Cloudy, Light Rain, Heavy<br />
-- <b>temp-temperature in Celsius<br />
-- <b>atemp-"feels like" temperature in Celsius<br />
-- <b>humidity-relative humidity<br />
-- <b>windspeed-wind speed<br />
-- <b>Total_booking-number of total booking (train_label contains the data)<br />
+- <b>datetime ->  hourly date +timestamp<br />
+- <b>season -> spring, summer, autumn, winter<br />
+- <b>holiday -> whether the day is considered a holiday<br />
+- <b>workingday -> whether the day is neither a weekend nor holiday<br />
+- <b>season -> spring, summer, autumn, winter<br />
+- <b>weather -> Clear , Cloudy, Light Rain, Heavy<br />
+- <b>temp -> temperature in Celsius<br />
+- <b>atemp -> "feels like" temperature in Celsius<br />
+- <b>humidity -> relative humidity<br />
+- <b>windspeed -> wind speed<br />
+- <b>Total_booking -> number of total booking (train_label contains the data)<br />
 
 
 <h2>Languages and Utilities Used</h2>
